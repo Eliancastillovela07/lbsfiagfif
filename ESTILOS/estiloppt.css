@@ -1,0 +1,104 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+main {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+#ganadas {
+    color: #059669;
+}
+
+#empatadas {
+    color: #d97706;
+}
+
+#perdidas {
+    color: #dc2626;
+}
+
+h1 {
+    color: #1e3a8a;
+    margin-bottom: 5px;
+}
+
+.instrucciones {
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.opciones button {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.marcador-container {
+    background-color: #f8fafc;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #e2e8f0;
+}
+
+.marcador-container p {
+    margin: 5px 0;
+    font-weight: 600;
+    font-size: 14px;
+    color: #475569;
+}
+
+#resultado {
+    border-top: 2px solid #e2e8f0;
+    padding-top: 15px;
+}
+
+#resultado h2 {
+    font-size: 18px;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+#mensaje {
+    font-weight: bold;
+    font-size: 16px;
+    color: #059669;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #475569;
+    font-weight: 600;
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../ESTILOS/estilocalcu.css">
+    <link rel="stylesheet" href="../ESTILOS/estilocomun.css">
+    <script src="calculador.js" defer></script>
+</head>
+<body>
+    <header class="cabecera">
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="calculadora.html">Calculadora</a>
+            <a href="../juego/pieddrapapelytijera.html">Piedra, papel o tijera</a>
+        </nav>
+    </header>
+
+    <main class="contenido-calculadora">
+        <h1>Calculadora</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4"><input type="text" id="pantalla" value="0" aria-label="Pantalla de la calculadora"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><button type="button" onclick="escribir('7')">7</button></th>
+                    <th><button type="button" onclick="escribir('8')">8</button></th>
+                    <th><button type="button" onclick="escribir('9')">9</button></th>
+                    <th><button type="button" onclick="escribir('/')">/</button></th>
+                </tr>
+                <tr>
+                    <th><button type="button" onclick="escribir('4')">4</button></th>
+                    <th><button type="button" onclick="escribir('5')">5</button></th>
+                    <th><button type="button" onclick="escribir('6')">6</button></th>
+                    <th><button type="button" onclick="escribir('*')">*</button></th>
+                </tr>
+                <tr>
+                    <th><button type="button" onclick="escribir('1')">1</button></th>
+                    <th><button type="button" onclick="escribir('2')">2</button></th>
+                    <th><button type="button" onclick="escribir('3')">3</button></th>
+                    <th><button type="button" onclick="escribir('-')">-</button></th>
+                </tr>
+                <tr>
+                    <th><button type="button" onclick="escribir('0')">0</button></th>
+                    <th><button type="button" onclick="escribir('.')">.</button></th>
+                    <th><button type="button" onclick="escribir('+')">+</button></th>
+                    <th><button type="button" onclick="calcula()">=</button></th>
+                </tr>
+                <tr>
+                    <th colspan="4"><button type="button" onclick="borrar()">C</button></th>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer class="pie">
+        <p>Hecho por Elián</p>
+    </footer>
+</body>
+</html>

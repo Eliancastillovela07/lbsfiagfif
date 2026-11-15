@@ -1,0 +1,36 @@
+.cabecera {
+    align-self: stretch;
+    padding: 10px;
+    background-color: #1e3a8a;
+    color: white;
+}
+
+.cabecera a {
+    margin-right: 10px;
+    color: white;
+}
+
+.pie {
+    align-self: stretch;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dbeafe;
+    color: #1e3a8a;
+    font-size: 14px;
+    text-align: center;
+}
+
+.pie p {
+    margin: 0;
+}
+
+.inicio {
+    width: calc(100% - 32px);
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 16px;
+    background-color: white;
+    color: #333;
+    text-align: center;
+}

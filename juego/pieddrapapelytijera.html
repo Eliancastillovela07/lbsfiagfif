@@ -1,0 +1,46 @@
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Piedra, papel o tijera</title>
+    <link rel="stylesheet" href="../ESTILOS/estiloppt.css" />
+    <link rel="stylesheet" href="../ESTILOS/estilocomun.css" />
+    <script src="juego.js" defer></script>
+  </head>
+  <body>
+    <header class="cabecera">
+      <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="../calculadora/calculadora.html">Calculadora</a>
+        <a href="pieddrapapelytijera.html">Piedra, papel o tijera</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Piedra, papel o tijera</h1>
+      <p class="instrucciones">Elige una opción y juega contra la máquina.</p>
+
+      <div class="opciones">
+        <button type="button" onclick="juego('piedra')">Piedra</button>
+        <button type="button" onclick="juego('papel')">Papel</button>
+        <button type="button" onclick="juego('tijera')">Tijera</button>
+      </div>
+
+      <p id="marcador">Partidas jugadas: 0</p>
+      <p id="ganadas">Ganadas: 0</p>
+      <p id="empatadas">Empates: 0</p>
+      <p id="perdidas">Derrotas: 0</p>
+
+      <section id="resultado">
+        <h2>Resultado</h2>
+        <p id="jugada-jugador">Tu jugada aparece aqui.</p>
+        <p id="jugada-maquina">La jugada de la maquina aparece aqui.</p>
+        <p id="mensaje"></p>
+      </section>
+    </main>
+
+    <footer class="pie">
+      <p>Hecho por Elián</p>
+    </footer>
+  </body>
+</html>
